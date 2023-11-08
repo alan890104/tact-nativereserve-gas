@@ -3,13 +3,13 @@
 The purpose of these two functions is to maintain approximately 1 TON within the contract. To sum up, `NativeReserve` offers greater precision but incurs a higher gas cost.
 
 - Native Reserve 
-  - total gas: **0.003943 + 0.008757 = 0.0127  (expensive)**
+  - total gas: 0.003943 + 0.008757 = **0.0127  (expensive)**
   - remain ton: 1 TON
   
     ![nativeReserve](images/native.png)
 
 - Directly dwindle from context 
-  - (total gas: 0.003943+0.008272=**0.012215 (cheap)**)
+  - total gas: 0.003943+0.008272= **0.012215 (cheap)**
   - remain ton: 0.991 TON
   
     ![directly](images/directly.png)

@@ -1,10 +1,11 @@
 # Native Reserve v.s. Directly dwindle from Context
 
-- Native Reserve (gas: 0.00394+0.008757= **0.012697 (expensive)**)
+- Native Reserve (total gas: **0.003943 + 0.008757 = 0.0127  (expensive)**)
   
-    ![nativeReserve](images/nativeReserve.png)
+    <!-- ![nativeReserve](images/nativeReserve.png) -->
+    ![nativeReserve](images/nativereserve.png)
 
-- Directly dwindle from context (gas: 0.003943+0.008272=**0.012215 (cheap)**)
+- Directly dwindle from context (total gas: 0.003943+0.008272=**0.012215 (cheap)**)
   
     ![directly](images/directly.png)
 

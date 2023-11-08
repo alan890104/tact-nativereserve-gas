@@ -3,7 +3,7 @@
 - Native Reserve (total gas: **0.003943 + 0.008757 = 0.0127  (expensive)**)
   
     <!-- ![nativeReserve](images/nativeReserve.png) -->
-    ![nativeReserve](images/nativereserve.png)
+    ![nativeReserve](images/native.png)
 
 - Directly dwindle from context (total gas: 0.003943+0.008272=**0.012215 (cheap)**)
   

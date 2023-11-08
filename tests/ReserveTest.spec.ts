@@ -32,11 +32,6 @@ describe('RoleTest', () => {
             deploy: true,
             success: true,
         });
-
-        // Assume contract has 1 Ton
-        await reserveContract.send(deployer.getSender(), { value: toNano('1') }, null);
-        const balance = await reserveContract.getBalance();
-        expect(Number(balance / 10n**10n)).toBeCloseTo(Number(toNano("1") / 10n**10n),2);
     });
 
     it('should deploy', async () => {

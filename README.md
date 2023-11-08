@@ -1,4 +1,12 @@
-# a
+# Native Reserve v.s. Directly dwindle from Context
+
+- Native Reserve (gas: 0.00394+0.008757= **0.012697 (expensive)**)
+  
+    ![nativeReserve](images/nativeReserve.png)
+
+- Directly dwindle from context (gas: 0.003943+0.008272=**0.012215 (cheap)**)
+  
+    ![directly](images/directly.png)
 
 ## Project structure
 

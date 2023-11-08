@@ -11,7 +11,7 @@ contract Reserve with Deployable {
             to: newAddress(0, 0),
             value: 0,
             bounce: false,
-            mode: SendRemainingValue + SendIgnoreErrors
+            mode: SendRemainingBalance + SendIgnoreErrors
         });
     }
     receive("u") {
@@ -25,8 +25,6 @@ contract Reserve with Deployable {
             mode: SendPayGasSeparately + SendIgnoreErrors
         });
     }
-
-    receive(){}
 
     get fun balance(): Int {
         return myBalance();
